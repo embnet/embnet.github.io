@@ -4,7 +4,7 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/opt/bin:/c/Windows/System32:/c/Window
 root=/e/hexo
 page=embnet.github.io
 
-rsync -aP --size-only --delete ../_posts/ $root/source/_posts/
+rsync -aP --size-only --delete ./ $root/source/_posts/
 
 cd $root
 rm $root/public/* -rf
